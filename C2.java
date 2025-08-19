@@ -1,4 +1,4 @@
-//Q2.wap to calculate area and circumference of circle
+//Q3.wap to calculate area and circumference of circle
 class C2{
          public static void main(String args[]){
 	 float ar,cr,r;
@@ -13,3 +13,5 @@ class C2{
 
 	}
 }
+
+/*by default decimal value ko double manta hai java compiler float me karne ke liye last me f lga dete hain upar me jaise lga hai*/
