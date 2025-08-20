@@ -1,0 +1,21 @@
+//wap to calculate area and parameter of rectangle
+import java.util.Scanner;
+class R2{
+	public static void main(String args[]){
+	int a,p,l,b;
+	//step2 create obj of Scanner class
+	Scanner kb=new Scanner(System.in);
+
+	//step3 call Scanner class method via Object
+	System.out.println("enter length of recatngle:");
+	 l=kb.nextInt();
+	System.out.println("enter breadth of rectangle:");
+	 b=kb.nextInt();
+	 a=l*b;
+	System.out.println("area of rect="+a);
+	p=(l+b)*2;
+	System.out.println("parameter of rect="+p);
+	}
+
+
+}
