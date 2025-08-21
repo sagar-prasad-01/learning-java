@@ -1,7 +1,11 @@
 //wap to convert given amout into smallet possible bank notes
+   import java.util.Scanner;
 	class AmountConvert{
 	public static void main(String args[]){
-	int amount=1328,r,hd,fifty,twn,ten,five,two,one;
+        Scanner am=new Scanner(System.in);	
+	System.out.println("enter amount");
+	int amount=am.nextInt();
+	int r,hd,fifty,twn,ten,five,two,one;
 	hd=amount/100;
 	r=amount-(hd*100);
 	fifty=r/50;
