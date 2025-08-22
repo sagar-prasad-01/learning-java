@@ -1,0 +1,13 @@
+//wap to read student first name from the user and print it on the screen;
+import java.util.Scanner;
+class St{
+	public static void main(String args[]){
+	String fn; 	
+	Scanner s=new Scanner(System.in);
+	System.out.println("enter first name");
+	fn=s.next();
+	System.out.println("fisrt name="+fn);
+
+}
+
+}
