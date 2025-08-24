@@ -5,7 +5,8 @@ class St{
 	String fn; 	
 	Scanner s=new Scanner(System.in);
 	System.out.println("enter name");
-	fn=s.nextLine();
+	//fn=s.nextLine();
+	fn=s.next();
 	System.out.println("fisrt name="+fn);
 
 }
