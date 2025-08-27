@@ -1,4 +1,5 @@
-class Intro{
+//wap to show intro
+  class Intro{
 	public static void main(String args[]){
 	
 	
@@ -6,10 +7,8 @@ class Intro{
 	System.out.println("college: tit");
 	System.out.println("address: siwan");
 
-
-
-
 	}
 
 
 }
+//finalized kya hota hai

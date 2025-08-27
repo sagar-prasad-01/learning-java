@@ -23,7 +23,7 @@ class Emp{
 	System.out.println("job name="+job);
 	System.out.println("department number="+dn);
 	
-	double hra=salary*0.2;
+	double  hra=salary*0.2;
 	double da=salary*0.1;
 	double ta=salary*0.1;
 	double totala=hra+da+ta;
