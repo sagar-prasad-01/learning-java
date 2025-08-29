@@ -1,4 +1,4 @@
-//wap to print some of last digit of two number.
+//wap to delete last digit of any number.
 class Dl{
 	public static void main(String args[]){
 	int n1=123;
