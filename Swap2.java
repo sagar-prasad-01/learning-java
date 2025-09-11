@@ -1,16 +1,14 @@
-//wap to swap two num without using 3rd variable
-	class Swap2{
-	public static void main(String args[]){
-	int a=5;
-	int b=10;
-	System.out.println("before swapping a="+a+ "  b="+b);
-	a=a+b;
-	b=a-b;
-	a=a-b;
+//swap two number without third variable and arithmetic operator
+class Swap2{
+	public static void main	(String args[]){
+	int a=6;
+	int b=7;
+	System.out.printf("before swappinng a %d b %d",a,b);
+	a=a^b;
+	b=a^b;
+	a=a^b;
+	System.out.printf("after swapping a %d b %d",a,b);
 	
 	
-	System.out.println("after swapping a="+a+"  b="+b );
-
-	}
 }
-// or---a=a*b;b=a/b;a=a/b;
+} 
