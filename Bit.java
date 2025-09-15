@@ -1,4 +1,4 @@
-//~(bitwise not operator)
+//~(bitwise not rightshift leftshift operator)
 class Bit{
 	public static void main(String args[]){
 	int x=8;

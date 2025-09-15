@@ -8,8 +8,5 @@ class Bool{
 	System.out.println("Bitwise and = "+c);
         System.out.println("Bitwise or = "+d);
 	System.out.println("Bitwise xor = "+e);
-	
-		 
-
 }
 }
