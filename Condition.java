@@ -4,7 +4,7 @@ class Condition{
 
 	int n1=2;
 	int n2=5;
-	if(n1>n2)
+	if(n1>n2)//if bina curly brakate ke ak line hi include krta hai  
 	System.out.println("n1 is greater");
 	System.out.println("this is if 1");
 	
