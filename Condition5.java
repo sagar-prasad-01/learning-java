@@ -13,10 +13,6 @@ class Condition5{
 	System.out.println("not a vowel");
 	}
 	
-
-
-	 
-	
 	}
 
 }
