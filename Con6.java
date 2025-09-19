@@ -15,6 +15,11 @@ class Con6{
 	else if(n>=100 && n<=999){
 	System.out.println("three digit");
 	}
+
+	else if(n<0){
+	System.out.println("-ve number");
+	}	
+
 	else{
 	System.out.println("more than three digit");
 	}
