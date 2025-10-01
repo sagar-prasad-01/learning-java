@@ -89,45 +89,45 @@ class A41{
 	Scanner sk=new Scanner(System.in);
 	System.out.println("enter number");
 	int n=sk.nextInt();
+	int k=1;
 	while(n>0){
 	 int r1=n%10;
 	  n=n/10;
-		while(n>0){
-		 int r2=n%10;
-			System.out.println("abc");
-		 if(r1==r2){System.out.println("not uniqe");
-			break;
-			}
-		break;
-		}
+	int r2=n%10;
+	if(r1==r2){
+	System.out.println("not a unique number");
+	 k=0;
+	}			
 	}
-	if(n==0){System.out.println("uniqe");}
+	if(k!=0){
+	System.out.println(" this is unique number");
+	}
 
 }}
-
 //Q8
 class A41{
 	public static  void main(String args[]){
 	int n=1;
 	while(n<=100){
-System.out.println(n);
-		int i=n;
-           while(i>0){
-	System.out.println(i);
+	int i=1;
 	int cnt=0;
-	if(n%i==0){
-	if(cnt>2){
-	System.out.println(cnt+"hello");}
-	cnt++;
+	while(i<=n){
+	
+	if(n%i==0){cnt++;
+	
 	}
-	i--;
+	
+	i++;
+	 
 	}
-
-
-		n++ ;
+	if(cnt==2){
+	System.out.println(n+" is prime number");
+	}
+	n++ ;
 	}
 
 }}
+
 
 //Q9
 import java.util.Scanner;
@@ -159,7 +159,7 @@ class A41{
 
 }}
 
-*/
+
 //Q12
 import java.util.Scanner;
 class A41{
@@ -215,5 +215,214 @@ class A41{
 
 }}
 
+//Q13
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter marks out of 100");
+	System.out.println("enter marks of math");
+	int m=sk.nextInt();
+	System.out.println("enter marks of english");
+	int e=sk.nextInt();
+	System.out.println("enter marks of science");
+	int s=sk.nextInt();
+	System.out.println("enter marks of art");
+	int a=sk.nextInt();
+	System.out.println("enter marks of computer");
+	int c=sk.nextInt();
+	int tm=(m+e+s+a+c);
+	float average=tm/5;
+	System.out.println("total marks obtain in 500= "+tm);
+	
+	System.out.println("percentage of marks= "+average);
+	
+	}
+
+}
+//Q14
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter cost price");
+	int cp=sk.nextInt();
+	System.out.println("enter selling price");
+	int sp=sk.nextInt();
+	int p=sp-cp;
+	int l=cp-sp;
+	if(p>l){
+	System.out.println("profit = "+p);
+	}
+	else{
+	System.out.println("loss = "+l);
+	}
+}}
 
 
+//Q15
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter your age");
+	int a=sk.nextInt();
+	String r=(a>=18)?("you can vote"):("you cannot vote.");
+	System.out.println(r);
+}}
+//Q16
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter daily wages");
+	int w=sk.nextInt();
+	System.out.println("enter number of working days");
+	int r=sk.nextInt();
+	int bp=w*r;
+	double da=bp*0.05;
+	double hra=bp*0.10;
+	double pf=bp*0.12;
+	Double np=bp+da+hra-pf;
+	System.out.println("Basic pyment: "+bp );
+	System.out.println("DA: "+da );
+	System.out.println("HRA: "+hra );
+	System.out.println("Net payment: "+np );
+
+}}
+
+
+//Q17
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter your gender");
+	String g=sk.next();
+	System.out.println("enter your age");
+	int a=sk.nextInt();
+	
+	
+	if(g.equalsIgnoreCase("Female") && a>0 && a<=58)
+	{
+	System.out.println("percentage of interest= 8.2%");
+	}
+	else if(g.equalsIgnoreCase("Female") &&  a<=120)
+	{
+	System.out.println("percentage of interest= 7.6%");
+	}
+	else if(g.equalsIgnoreCase("male") && a>0 && a<=60)
+	{
+	System.out.println("percentage of interest= 9.2%");
+	}
+	else if(g.equalsIgnoreCase("male") &&  a<=120)
+	{
+	System.out.println("percentage of interest= 8.3%");
+	}
+	else
+	{System.out.println("invalid age or gender");}
+	
+	
+}}
+
+//Q18
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter any character");
+	char g=sk.next().charAt(0);
+	System.out.println("old character is : "+g);
+	if(g>90 && g<123){
+	System.out.println("new charcter : "+(char)(g-32));	
+	}
+	else if(g>64 && g<91){
+	System.out.println("new charcter : "+(char)(g+32));	
+	}
+
+	}}
+
+//Q19
+import java.util.Scanner;
+class A41{
+public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter month in digit");
+	int m=sk.nextInt();
+	if(m==1){
+	System.out.println("January");
+	}
+	else if(m==2){
+	System.out.println("February");
+	}
+	else if(m==3){
+	System.out.println("March");
+	}
+	else if(m==4){
+	System.out.println("april");
+	}
+	else if(m==5){
+	System.out.println("May");
+	}
+	else if(m==6){
+	System.out.println("June");
+	}
+	else if(m==7){
+	System.out.println("July");
+	}
+	else if(m==8){
+	System.out.println("August");
+	}
+	else if(m==9){
+	System.out.println("September");
+	}
+	else if(m==10){
+	System.out.println("October");
+	}
+	else if(m==11){
+	System.out.println("November");
+	}
+	else if(m==12){
+	System.out.println("December");
+	}
+	else {
+	System.out.println("invalid month");
+	}
+	
+		
+	}}
+
+//Q20
+
+class A41{
+	public static void main(String args[]){
+	int i=1;
+	int cnt=1;
+	while(cnt<=5){
+	if(i%2==0 && i%3==0 && i%5==0){
+	cnt++;
+	System.out.println(i);
+	}
+	i++;
+
+	}
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

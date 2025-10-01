@@ -1,4 +1,4 @@
-//wap to check given number if perfect or not
+//wap to check given number is  perfect or not
 import java.util.Scanner;
 class L10{
   public static void main(String args[]){
@@ -6,7 +6,6 @@ class L10{
 	System.out.println("enter number");
 	int n=sk.nextInt();
 	int i=1;
-	int cnt=0;
 	int sum=0;
 	while(i<n){
 	if(n%i==0){
