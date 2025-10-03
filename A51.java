@@ -94,7 +94,7 @@ class A51{
 	}
 
 }}
-*/
+
 //Q6
 import java.util.Scanner;
 class A51{
@@ -150,13 +150,70 @@ class A51{
 
 
 
+//Q8
+import java.util.Scanner;
+class A51{
+	public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter $1 available notes ");
+	int one=sk.nextInt();
+	System.out.println("enter $5 available notes ");
+	int five=sk.nextInt();
+	System.out.println("enter purchase amount");
+	int pa=sk.nextInt();
+	int r=pa%5;
+	int am=pa/5;
+	if(five>=am && one>=r){
+	System.out.println("$1 notes needed: "+r);
+	System.out.println("$5 notes needed: "+am);
+	}
+	else{
+	System.out.println(-1);
+	}
+	
+	
+	}
+}
 
+//Q9
 
+import java.util.Scanner;
+class A51{
+	public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter day");
+	int d=sk.nextInt();
+	System.out.println("enter month");
+	int m=sk.nextInt();
+	System.out.println("enter year");
+	int y=sk.nextInt();
+	int r=d+1;
+	System.out.println(r+"-"+m+"-"+"20"+y);
 
+}}
+*/
+//Q10
+import java.util.Scanner;
+class A51{
+	public static void main(String args[]){
+	Scanner sk=new Scanner(System.in);
+	System.out.println("enter number");
+	int n=sk.nextInt();
+	if(n%5==0 && n%3==0){
+	System.out.println("zoom");
 
+	}
+	else if(n%5==0){
+	System.out.println("zap");
 
+	}
+	else if(n%3==0){
+	System.out.println("zip");
 
+	}
+	else{
+	System.out.println("Invalid");
 
-
-
+	}
+}}
 
