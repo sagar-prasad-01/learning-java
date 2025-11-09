@@ -27,6 +27,12 @@ class A22{
 	
 	}
 
+	for( r=0;r<B.length;r++){
+	for( c=0;c<B.length;c++){
+		 C[r][c]=A[r][c]+B[r][c];
+		}
+	}
+
 	System.out.println("output of matrix A");
 	for(int[] r1:A){
 		for(int x:r1){
@@ -42,6 +48,15 @@ class A22{
 		}
 	System.out.println("");
 	}
+
+	System.out.println("output of matrix C");
+	for(int[] r1:C){
+		for(int x:r1){
+		System.out.print("\t"+x);
+		}
+	System.out.println("");
+	}
+
 	
 	
 
