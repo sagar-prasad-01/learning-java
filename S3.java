@@ -1,4 +1,5 @@
 /*
+//methods os String class
 class S3{
 	public static void main(String args[]){
      	String x="sagar";
@@ -25,7 +26,7 @@ class S3{
 }}
 
 
-*/
+
 class S3{
 	public static void main(String args[]){
      	String x="sag";
@@ -36,3 +37,65 @@ class S3{
 	
 
 }}
+
+
+class S3{
+	public static void main(String args[]){
+     	String x="bhopal is this";
+	boolean b=x.contains("is");//true
+	boolean c=x.contains("iS");//case sensitive hota ye method---false
+	System.out.println(b);
+	System.out.print(c);
+	
+	
+
+}}
+
+
+class S3{
+	public static void main(String args[]){
+     	String x="bhopal is know city of lack";
+	boolean b=x.endsWith("city of lack");//true
+	boolean c=x.startsWith("bhopal");//true
+	System.out.println(b);
+	System.out.println(c);
+	
+
+}}
+
+
+import java.util.Scanner;
+class S3{
+	public static void main(String args[]){
+     	Scanner sk=new Scanner(System.in);
+	System.out.println("enter user name");
+	String un=sk.nextLine();
+	System.out.println("enter password");
+	String ps=sk.nextLine();
+
+	if(un.equalsIgnoreCase("admin") && ps.equals("111")){
+	System.out.println("login succes");
+	}
+	else{
+	System.out.println("login failed");
+	}
+
+}}
+
+*/
+class S3{
+	public static void main(String args[]){
+     	String x="bhopal is bhopal know city of lack bhopal";
+	int b=x.indexOf("pal");//3
+	int c=x.indexOf("pal",6);//13
+
+	int d=x.lastIndexOf("pal");//3
+	
+	System.out.println(b);
+	System.out.println(c);
+	System.out.println(d);
+
+}}
+
+
+
