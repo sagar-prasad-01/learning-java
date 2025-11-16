@@ -82,7 +82,7 @@ class S3{
 
 }}
 
-*/
+
 class S3{
 	public static void main(String args[]){
      	String x="bhopal is bhopal know city of lack bhopal";
@@ -99,3 +99,48 @@ class S3{
 
 
 
+class S3{
+	public static void main(String args[]){
+     	String x="";
+	String y=" ";
+	System.out.println(x.isEmpty());
+	System.out.println(y.isEmpty());
+}}
+
+
+
+class S3{
+	public static void main(String args[]){
+     	String x=String.join("-","welcome","to","bhopal"); 
+	System.out.println(x);
+}}
+
+
+class S3{
+	public static void main(String args[]){
+     	String x="welcome to bhopal this is old city";
+	String arr[]= x.split(" ");
+	for(String a:arr){
+	System.out.println(a);
+	}
+}}
+
+
+class S3{
+	public static void main(String args[]){
+     	String x="welcome to bhopal this is old city";
+	String arr[]= x.split(" ");
+	String r=String.join("-",arr);
+	System.out.println(r);
+}}
+
+*/
+class S3{
+	public static void main(String args[]){
+     	String x="welcome";
+	String r=x.substring(3);
+	String m=x.substring(2,6);
+	System.out.println(r);
+	System.out.println(m);
+}}
+ 
