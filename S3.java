@@ -134,7 +134,7 @@ class S3{
 	System.out.println(r);
 }}
 
-*/
+
 class S3{
 	public static void main(String args[]){
      	String x="welcome";
@@ -143,4 +143,41 @@ class S3{
 	System.out.println(r);
 	System.out.println(m);
 }}
+
+
+class S3{
+	public static void main(String args[]){
+     	String x="welcome";
+	String r=x.substring(3);
+	String m=x.substring(2,6);
+	System.out.println(r);
+	System.out.println(m);
+}}
+
+
+
+
+*/
+class S3{
+	public static void main(String args[]){
+     	String x="wElcome";
+	String r=x.toUpperCase();
+	String s=r.toLowerCase();
+	System.out.println(x+"  "+r+"	"+s);
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
