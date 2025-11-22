@@ -157,7 +157,7 @@ class S3{
 
 
 
-*/
+
 class S3{
 	public static void main(String args[]){
      	String x="wElcome";
@@ -169,7 +169,13 @@ class S3{
 
 
 
-
+*/
+class S3{
+	public static void main(String args[]){
+     	int x=1234;
+	String r=String.valueOf(x);
+	System.out.println("length of x : "+r.length());
+}}
 
 
 
