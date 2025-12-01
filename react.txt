@@ -1,0 +1,29 @@
+react::
+===========================================
+Components:
+it is a function which returns jsx code(javascript xml);
+
+
+React Fragments:(<>//</>)
+it is a wrapper which is used to wrap all the html elemetns in a single unit without adding extra nodes to the DOM.
+
+
+js in html:
+we can use it by the help of  {},
+we write js code in the curly bracet.
+
+condition:
+(1)a>b?a:b
+
+
+<p>{age>=18 && "you can vote"||"you cannot vote"}</p>
+<p>{age>=18 ?"you can vote":"you cannot vote"}</p>
+<button>{age>=18?"watch now":"not available"}</button>
+
+
+note==In js every thing is object but in react every thing is component.
+
+
+
+
+
