@@ -12,9 +12,9 @@ private int c;
 private int m;
 private int h;
 private int e;
-private char section;
+private char Section;
 
-
+}
 
 public String getName(){
 return name;
@@ -91,12 +91,7 @@ e=e;
 public static void main(String args[]){
 
 Student s1=new Student();
-x=s1.setName("sagar");
-s1.setEnroll("0191cs231229");
-
-
-System.out.println(x);
-System.out.println(s1.getEnroll());
+System.out.println(s1.setName(sagar);
 
 
 }
