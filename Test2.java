@@ -62,7 +62,7 @@ System.out.println("String is not panagram");
 }
 
 
-//////1
+
 import java.util.Scanner;
 class Test2{
 public static void main(String args[]){
@@ -85,28 +85,9 @@ System.out.println(s2);
 }
 
 }
+
 */
-import java.util.Scanner;
 
-class Test2 {
-    public static void main(String args[]) {
-        System.out.println("Enter string:");
-        Scanner sk = new Scanner(System.in);
-        String s1 = sk.nextLine();
-        String s2 = " ";
 
-        for (int i = 0; i < s1.length(); i++) {
 
-            char ch = s1.charAt(i);   
-
-            if (ch >= 'a' && ch <= 'z') {   
-            }
-            else{
-                s2=s2+ch+"";
-            }
-        }
-
-        System.out.println("Digits: " + s2);
-    }
-}
 

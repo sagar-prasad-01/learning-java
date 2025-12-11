@@ -1,3 +1,4 @@
+//constructor class 
 import java.util.Scanner; 
 class Rec{
 

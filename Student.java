@@ -91,7 +91,7 @@ e=e;
 public static void main(String args[]){
 
 Student s1=new Student();
-x=s1.setName("sagar");
+s1.setName("sagar");
 s1.setEnroll("0191cs231229");
 
 

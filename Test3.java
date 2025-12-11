@@ -24,7 +24,7 @@ class Test3{
 	}
 }}
 
-*/
+
 
 import java.util.Scanner;
 class Test3{
@@ -46,6 +46,8 @@ class Test3{
 	}
 
 }}
+
+*/
 
 
 
